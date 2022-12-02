@@ -1,4 +1,4 @@
-package day14;
+  package day14;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,11 +9,11 @@ public class Basics2 {
 
 	public static void main(String[] args) {
 	
-		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\dawoo\\Desktop\\SDET\\chromedriver_win32\\chromedriver.exe");
-		//ChromeDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\dawoo\\Desktop\\SDET\\geckodriver-v0.29.1-win64\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();
+//		System.setProperty("webdriver.gecko.driver", "C:\\Users\\dawoo\\Desktop\\SDET\\geckodriver-v0.29.1-win64\\geckodriver.exe");
+//		WebDriver driver = new FirefoxDriver();
 		
 		
 		
