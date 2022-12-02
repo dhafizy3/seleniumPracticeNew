@@ -13,18 +13,17 @@ public class LocatorDemo2 {
 		System.setProperty("webdriver.chrome.driver", "\\chromedriver.exe");
 		
 		WebDriver dr = new ChromeDriver();
-		dr.get("http://tek-school.com/retail/index.php?route=product/product&path=18&product_id=45");
-//		dr.findElement(By.xpath("//h2[normalize-space()='$2,000.00']"));
+		dr.findElement(By.xpath("//h2[normalize-space()='$2,000.00']"));
 		
-//		dr.get("http://automationpractice.com/index.php?");
-//		dr.manage().window().maximize();
-//		
-//		
-//		List<WebElement> sliders = dr.findElements(By.className("homeslider-container"));
-//		System.out.println(sliders.size());
-//		
-//		List<WebElement> links= dr.findElements(By.tagName("a"));
-//		System.out.println(links.size()) ;
+		dr.get("http://automationpractice.com/index.php?");
+		dr.manage().window().maximize();
+		
+		
+		List<WebElement> sliders = dr.findElements(By.className("homeslider-container"));
+		System.out.println(sliders.size());
+		
+		List<WebElement> links= dr.findElements(By.tagName("a"));
+		System.out.println(links.size()) ;
 
 	}
 
